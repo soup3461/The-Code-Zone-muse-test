@@ -1,4 +1,4 @@
-// meta={"simUrl":"/simulator.html","cdnUrl":"/","version":"0.0.1","target":"arcade","targetVersion":"1.13.9","repo":"soup3461/the-code-zone-muse-test"}
+// meta={"simUrl":"/simulator.html","cdnUrl":"/","version":"0.0.2","target":"arcade","targetVersion":"1.13.9","repo":"soup3461/the-code-zone-muse-test"}
 // total=1803043 new=6.06% cached=88.92% other=5.02%
 (function (ectx) {
 'use strict';
@@ -550,7 +550,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P51212(s) {
+function _main___P51225(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1085,13 +1085,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P51212.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P51212.continuations = [  ]
+_main___P51225.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P51225.continuations = [  ]
 
-function _main___P51212_mk(s) {
+function _main___P51225_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P51212, depth: s.depth + 1,
+        parent: s, fn: _main___P51225, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -60567,5 +60567,5 @@ const sprites_BaseSpriteSayRenderer__C29641_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___31715","Hero___31713","Bat___31712"])
 
-return _main___P51212
+return _main___P51225
 })
