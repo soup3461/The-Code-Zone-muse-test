@@ -1,5 +1,5 @@
 {
-    "name": "with music",
+    "name": "Test",
     "version": "0.0.6",
     "description": "",
     "dependencies": {
@@ -21,7 +21,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.13.9",
+        "target": "1.12.32",
         "pxt": "8.5.2",
         "targetId": "arcade"
     },
