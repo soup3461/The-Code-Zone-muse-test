@@ -2,7 +2,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (Hero.overlapsWith(Bat)) {
         game.gameOver(true)
     } else {
-        info.changeLifeBy(0)
+        info.changeLifeBy(-1)
     }
 })
 let Bat: Sprite = null
@@ -169,6 +169,7 @@ Bat = sprites.create(img`
 Bat.setVelocity(200, 100)
 Bat.setBounceOnWall(true)
 info.startCountdown(10)
+game.splash("Press space to catch the bat!")
 for (let index = 0; index < 4; index++) {
     animation.runImageAnimation(
     Bat,
