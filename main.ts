@@ -2,7 +2,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (Hero.overlapsWith(Bat)) {
         game.gameOver(true)
     } else {
-        info.changeLifeBy(-1)
+        info.changeLifeBy(0)
     }
 })
 let Bat: Sprite = null
